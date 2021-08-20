@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 80%; margin: 50px auto; height: 700px; position: relative; overflow:hidden ;
+}
+.btn-box{
+    display: flex; justify-content: space-evenly; border-bottom: solid 2px #ccc;
+}
+.btn-box button{
+    border: none; background-color: transparent ; cursor: pointer; padding: 10px 20px; font-size: 20px; font-weight: bold; outline: none;
+}
+.btn-box   i{
+    margin-right: 15px;
+}
+.btn-box button:hover i{
+    color: orange;
+}
+.content{
+    display: flex; justify-content: center; align-items: center; margin: 10% auto;
+    position: absolute; transform: translateX(100%); transition: 1s;
+}
+.content-left{
+    flex-basis: 50%;
+}
+.content-left h1{
+    font-size: 40px; margin-bottom: 20px; color: orange;
+}
+.content-left a{
+    display: block;
+    margin-top: 20px; width: 150px; background-color: orange; color: white; text-align: center;
+    text-decoration: none; padding: 10px 10px; border-radius: 12px;
+
+}
+.content-right{
+    flex-basis: 50%; text-align: center;
+}
+.content-right img{
+    width: 350px;
+}
+#home-content{
+    transform: translateX(0);
+}
